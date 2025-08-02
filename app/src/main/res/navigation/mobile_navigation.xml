@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.booksharing_application.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_profile"
+        android:name="com.example.booksharing_application.ui.gallery.fragmentProfile"
+        android:label="Profile"
+        tools:layout="@layout/fragment_profile" />
+
+    <fragment
+        android:id="@+id/nav_sharebook"
+        android:name="com.example.booksharing_application.ui.gallery.fragmentShareBook"
+        android:label="@string/menu_sharebook"
+        tools:layout="@layout/fragment_sharebook" />
+
+    <fragment
+        android:id="@+id/nav_sharedbooks"
+        android:name="com.example.booksharing_application.ui.gallery.fragmentSharedBook"
+        android:label="@string/menu_sharedbook"
+        tools:layout="@layout/fragment_sharedbook" />
+
+    <fragment
+        android:id="@+id/nav_contactUs"
+        android:name="com.example.booksharing_application.ui.gallery.fragmentContactUs"
+        android:label="@string/menu_contactUs"
+        tools:layout="@layout/fragment_contactus" />
+
+    <fragment
+        android:id="@+id/nav_feedback"
+        android:name="com.example.booksharing_application.ui.gallery.fragmentFeedback"
+        android:label="@string/menu_feedback"
+        tools:layout="@layout/fragment_feedback" />
+
+    <fragment
+        android:id="@+id/nav_aboutApp"
+        android:name="com.example.booksharing_application.ui.gallery.fragmentAboutApp"
+        android:label="@string/menu_aboutapp"
+        tools:layout="@layout/fragment_aboutapp" />
+
+
+
+
+</navigation>
